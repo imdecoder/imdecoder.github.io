@@ -15,7 +15,7 @@ categories:
 external-url: 
 ---
 
-![500px workflow](http://cdn.dfer.me/uploads/500px-workflow-for-alfred-v2.png)
+![500px workflow](http://cdn.jma.im/uploads/500px-workflow-for-alfred-v2.png)
 
 Please register your own api key on 500px via [here][3], and put `Consumer Key` after `$api=""` in workflow.
 
@@ -25,6 +25,6 @@ It will download size 5 image into your desktop with name 27042559_5.jpg
 
 Download: [500px.workflow][1]
 
-[1]: https://raw.github.com/durrfer/alfred-workflows/master/500px.alfredworkflow
+[1]: https://raw.github.com/imjma/alfred-workflows/master/500px.alfredworkflow
 [2]: http://500px.com/photo/27042559
 [3]: http://500px.com/settings/applications

@@ -12,4 +12,4 @@ categories:
 
 I have rewritten css file using sass based on [Linghua Zhang](http://lhzhang.com/)'s top banner and some colors setting.
 
-You can fork this template via [GitHub](https://github.com/imdefr/imdefr.github.com)
+You can fork this template via [GitHub](https://github.com/imjma/old_blog)

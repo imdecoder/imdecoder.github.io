@@ -20,4 +20,4 @@ What I need:
 - show git branch
 - colors
 
-You can get it from [**here**](https://github.com/imdefr/dotfiles/blob/master/.bash_profile)
+You can get it from [**here**](https://github.com/imjma/dotfiles/blob/master/.bash_profile)
