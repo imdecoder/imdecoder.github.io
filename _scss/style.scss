@@ -156,6 +156,14 @@ article {
   @include link;
 }
 
+.prettyprint {
+  font-size: 12px;
+
+  li {
+    list-style-type: decimal !important;
+  }
+}
+
 /*
 -------------------------------------------------------------------- */
 

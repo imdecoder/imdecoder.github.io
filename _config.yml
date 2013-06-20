@@ -2,10 +2,10 @@ markdown: rdiscount
 pygments: true
 auto: true
 permalink: /:year/:month/:day/:title.html
-name: jma.im
+name: im = jma;
 url: jma.im
 author: jma
-paginate: 10
+paginate: 30
 ga_uid: ''
 disqus_shortname: jmaim
 feed_url: 'http://feeds.feedburner.com/imjma'
@@ -14,4 +14,3 @@ exclude:
   - Rakefile
   - pids
   - config.rb
-  - Vagrantfile
