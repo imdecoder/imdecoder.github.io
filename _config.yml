@@ -1,0 +1,17 @@
+markdown: rdiscount
+pygments: true
+auto: true
+permalink: /:year/:month/:day/:title.html
+name: jma.im
+url: jma.im
+author: jma
+paginate: 3
+ga_uid: ''
+disqus_shortname: jmaim
+feed_url: 'http://feeds.feedburner.com/imjma'
+email: 'plusraw@gmail.com'
+exclude:
+  - Rakefile
+  - pids
+  - config.rb
+  - Vagrantfile

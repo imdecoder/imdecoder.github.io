@@ -1,0 +1,28 @@
+---
+layout: default
+title: {{ site.name }}
+---
+
+<ul id="posts">
+{% for post in paginator.posts %}
+  <li>
+  {% if post.external-url %}
+  <a title="{{ post.title }}" rel="bookmark" href="{{ post.url }}" class="link_list_plus">+</a>
+  <a href="{{ post.external-url }}" title="{{ post.title }}">{{ post.title }}</a>
+  {% else %}
+  <a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a>
+  {% endif %}
+  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%d %B %Y" }}</time>
+  </li>
+{% endfor %}
+</ul>
+<!-- Pagination links -->
+
+<div class="pageNav">
+  {% if paginator.previous_page %}
+    <div class="prev"><a href="/{{ paginator.previous_page_path }}">Newer</a></div>
+  {% endif %}
+  {% if paginator.next_page %}
+    <div class="next"><a href="/{{ paginator.next_page_path }}">Older</a></div>
+  {% endif %}
+</div>
