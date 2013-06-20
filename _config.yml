@@ -5,7 +5,7 @@ permalink: /:year/:month/:day/:title.html
 name: jma.im
 url: jma.im
 author: jma
-paginate: 3
+paginate: 10
 ga_uid: ''
 disqus_shortname: jmaim
 feed_url: 'http://feeds.feedburner.com/imjma'
