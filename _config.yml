@@ -6,7 +6,7 @@ name: im = jma;
 url: jma.im
 author: jma
 paginate: 30
-ga_uid: ''
+ga_uid: 'UA-41846747-1'
 disqus_shortname: jmaim
 feed_url: 'http://feeds.feedburner.com/imjma'
 email: 'plusraw@gmail.com'
