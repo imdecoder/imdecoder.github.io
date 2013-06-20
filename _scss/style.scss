@@ -86,6 +86,7 @@ aside {
 article {
   font-size: 12pt;
   margin-bottom: 30px;
+  line-height: 1.2em;
 
   .postTitle {
     font-size: 15pt;
@@ -117,7 +118,6 @@ article {
       }
     }
   }
-
   @include link;
 }
 
@@ -156,14 +156,21 @@ article {
   @include link;
 }
 
+blockquote, code {
+  background-color: #ccc;
+}
+
 .prettyprint {
   font-size: 12px;
+
+  code {
+    background-color: transparent;
+  }
 
   li {
     list-style-type: decimal !important;
   }
 }
-
 /*
 -------------------------------------------------------------------- */
 
