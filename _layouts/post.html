@@ -25,22 +25,6 @@ layout: default
     </span>
     {% endif %}
   </section>
-
-  <section class="postRelated">
-    <ul>
-    {% for post in site.related_posts %}
-      <li>
-      {% if post.external-url %}
-      <a title="{{ post.title }}" rel="bookmark" href="{{ post.url }}" class="link_list_plus">+</a>
-      <a href="{{ post.external-url }}" title="{{ post.title }}">{{ post.title }}</a>
-      {% else %}
-      <a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a>
-      {% endif %}
-      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%d %B %Y" }}</time>
-      </li>
-    {% endfor %}
-    </ul>
-  <section class="postMeta">
 </article>
 
 {% if page.guid %}
