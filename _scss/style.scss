@@ -27,6 +27,8 @@ aside {
   top: 0;
   left: 0;
   color: darkred;
+  background-image: url(/img/aside-bg.png);
+  box-shadow: 0 0 3px black;
 
   p {
     margin: 0;
@@ -38,6 +40,11 @@ aside {
 
   ul {
     width: 180px;
+    margin: 0;
+
+    li {
+      list-style: none;
+    }
   }
 
   a, a:link, a:visited {
