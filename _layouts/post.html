@@ -18,7 +18,7 @@ layout: default
   <section class="postMeta">
     {% if page.tags %}
     <span class="tags">
-      tagged with 
+      <i class="icon-tag add-on"></i>
       {% for tag in page.tags %}
       <a href="/tags.html#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
       {% endfor %}

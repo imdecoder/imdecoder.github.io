@@ -6,10 +6,17 @@
   }
 }
 
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body{
   background: #fff;
   font: 62.5% 'Volkhov', palatino, "times new roman", serif;
   color: #333;
+  margin: 0
 }
 
 aside {
@@ -25,8 +32,12 @@ aside {
     margin: 0;
     color: darkred;
     font-size: 12pt;
-    width: 200px;
+    width: 180px;
     margin-bottom: 10px;
+  }
+
+  ul {
+    width: 180px;
   }
 
   a, a:link, a:visited {
@@ -176,7 +187,7 @@ blockquote, code {
 
 @media (max-width: 1220px) {
   #main {
-    margin: 40px 0 0 250px;
+    margin: 40px 0 0 220px;
   }
   #comments {
     margin: 0 0 0 300px;
