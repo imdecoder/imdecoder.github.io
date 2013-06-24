@@ -167,17 +167,8 @@ article {
   @include link;
 }
 
-blockquote, code {
-  background-color: #ccc;
-}
-
 .prettyprint {
   font-size: 12px;
-
-  code {
-    background-color: transparent;
-  }
-
   li {
     list-style-type: decimal !important;
   }
