@@ -14,8 +14,10 @@ external-url: http://www.macobserver.com/tmo/article/os-x-hiding-items-with-the-
 Mac only
 
 hide:
+
 	chflags hidden /path/to/file-or-folder
 
 unhide:
+
 	chflags nohidden /path/to/file-or-folder
 
