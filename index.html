@@ -6,7 +6,7 @@ layout: default
 {% for post in paginator.posts %}
   <li>
   {% if post.external-url %}
-  <a title="{{ post.title }}" rel="bookmark" href="{{ post.url }}" class="link_list_plus">+</a>
+  <a title="{{ post.title }}" rel="bookmark" href="{{ post.url }}" class="link_list_plus"><i class="icon-plus"></i></a>
   <a href="{{ post.external-url }}" title="{{ post.title }}">{{ post.title }}</a>
   {% else %}
   <a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a>

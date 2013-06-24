@@ -42,7 +42,7 @@ task :server => :clean do
 end
 
 desc 'create new post or bit. args: title, future (# of days)'
-# rake new future=0 title="New post title goes here" slug="slug-override-title" link="http://imdefr.com"
+# rake new future=0 title="New post title goes here" slug="slug-override-title" link="http://jma.im"
 task :new do
   require 'rubygems'
   require 'chronic'
