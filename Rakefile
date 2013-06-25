@@ -84,5 +84,5 @@ HTML
     file.puts post
   end
   puts "new post generated in #{path}"
-  system "open -a byword #{path}"
+  system "open -a mou #{path}"
 end
