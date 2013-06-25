@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Example of  and self:: in PHP"
+title: "Example of $this and self:: in PHP"
 date: 2013-06-25 11:27:13 +1000
 guid: urn:uuid:f49f5955-ddcc-43c2-a031-65873301127e
 tags:
