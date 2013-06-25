@@ -58,4 +58,4 @@ Output:
 	Hello, I'm Ludwig the geek
 	Goodbye from Ludwig the person
 	
-`$this` will get function from object(extended class), but `self::` only get from current class
+`$this` will refer to current object(extended class), but `self::` only refer to current class. If you want to refer to current object, you can use `static::` (>= PHP5.3.0)
