@@ -13,7 +13,7 @@ external-url:
 ---
 [source]: http://stackoverflow.com/questions/151969/when-to-use-self-vs-this
 
-Saw this google example from [stackoverflow][source]
+Saw this good example from [stackoverflow][source]
 
 	class Person {
 	    private $name;
