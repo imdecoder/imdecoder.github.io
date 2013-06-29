@@ -7,11 +7,16 @@ layout: default
   <li>
   {% if post.external-url %}
   <a title="{{ post.title }}" rel="bookmark" href="{{ post.url }}" class="link_list_plus"><i class="icon-plus"></i></a>
-  <a href="{{ post.external-url }}" title="{{ post.title }}">{{ post.title }}</a>
+  <a href="{{ post.external-url }}" title="{{ post.title }}" class="postTitle">{{ post.title }}</a>
   {% else %}
-  <a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a>
+  <a href="{{ post.url }}" title="{{ post.title }}" class="postTitle shiftTitle" rel="bookmark">{{ post.title }}</a>
   {% endif %}
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%d %B %Y" }}</time>
+  {% if post.snap %}
+  <p class="postSnap">
+  {{ post.snap }}
+  </p>
+  {% endif %}
   </li>
 {% endfor %}
 </ul>
