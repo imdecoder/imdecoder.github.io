@@ -11,4 +11,4 @@ external-url: http://adarkroom.doublespeakgames.com
 snap: A text based Adventure Game
 ---
 
-[A text based Adventure Game][http://adarkroom.doublespeakgames.com]
+[A text based Adventure Game](http://adarkroom.doublespeakgames.com)
