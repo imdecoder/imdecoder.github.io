@@ -21,7 +21,7 @@ layout: default
   <article>
     <h3>
     {% if post.external-url %}
-    <a title="{{ post.title }}" rel="bookmark" href="{{ post.url }}" class="permalink">&#9733;</a>
+    <a title="{{ post.title }}" rel="bookmark" href="{{ post.url }}" class="permalink fa-icon icon-link"></a>
     <a href="{{ post.external-url }}" title="{{ post.title }}" class="postTitle">{{ post.title }}</a>
     {% else %}
     <a href="{{ post.url }}" title="{{ post.title }}" class="postTitle shiftTitle" rel="bookmark">{{ post.title }}</a>
