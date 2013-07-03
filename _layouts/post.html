@@ -3,14 +3,18 @@ layout: default
 ---
 
 <article>
-  <div class="postTitle">
-  {% if page.external-url %}
-  <a href="{{ page.external-url }}" title="{{ page.title }}">{{ page.title }}</a>
-  {% else %}
-  {{ page.title }}
-  {% endif %}
-  <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
-  </div>
+  <header>
+  <a title="Go to homepage" class="home fa-icon icon-home" href="http://{{ site.url }}"></a>
+  <h1>
+    {% if page.external-url %}
+    <a href="{{ page.external-url }}" title="{{ page.title }}">{{ page.title }}</a>
+    {% else %}
+    {{ page.title }}
+    {% endif %}
+  </h1> 
+  <p class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">on {{ page.date | date_to_long_string }}</time></p>
+  </header>
+
   <section class="post">
   {{ content }}
   </section>
@@ -46,3 +50,12 @@ layout: default
   <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </section>
 {% endif %}
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script>
+$(function() {
+  $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto');
+});
+</script>
+<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=desert"></script>

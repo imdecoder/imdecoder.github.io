@@ -3,22 +3,25 @@ title: tags
 layout: default
 ---
 
+<header>
+<a title="Go to homepage" class="home fa-icon icon-home" href="http://{{ site.url }}">home</a>
+<h1>{{ page.title }}</h1> 
+</header>
+
 <div id='tag_cloud'>
 {% for tag in site.tags %}
 <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
 {% endfor %}
 </div>
 
-<ul class="listing">
+<ul class="items">
 {% for tag in site.tags %}
-  <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
+  <li class="item-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
   {% for post in tag[1] %}
-    <li class="listing-item">
+    <li class="item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 {% endfor %}
 </ul>
-
-</script>

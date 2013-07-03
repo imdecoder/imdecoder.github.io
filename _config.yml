@@ -5,11 +5,12 @@ permalink: /:year/:month/:day/:title.html
 name: im = jma;
 url: jma.im
 author: jma
+fullname: Jie Ma
 paginate: 30
 ga_uid: 'UA-42070578-1'
 disqus_shortname: jmaim
 feed_url: 'http://feeds.feedburner.com/imjma'
-email: 'plusraw@gmail.com'
+email: 'codejma@gmail.com'
 exclude:
   - Rakefile
   - pids

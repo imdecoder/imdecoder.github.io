@@ -2,19 +2,34 @@
 layout: default
 ---
 
-<ul id="posts">
+<header>
+  <img id="avatar" class="avatar" src="http://cdn.jma.im/uploads/avatar.jpg" alt="{{ site.fullname }}">
+  <h1>{{ site.fullname }}</h1> 
+  <p class="intro">Hi. I am a web developer from Shanghai, and I am working at Sydney now. I am also a <a href="http://www.facebook.com/mrawphotography">photographer</a>.</p>
+  <p>
+    <a title="Twitter" href="http://twitter.com/imjma/" class="fa-icon icon-twitter"></a>
+    <a title="Github" href="http://github.com/imjma/" class="fa-icon icon-github"></a>
+    <a title="Weibo" href="http://weibo.com/kenziii/" class="fa-icon icon-weibo"></a>
+    <a title="Flickr" href="http://www.flickr.com/photos/kenziii" class="fa-icon icon-flickr"></a>
+    <a title="Facebook" href="https://www.facebook.com/jiema" class="fa-icon icon-facebook"></a>
+    <a title="Linkedin" href="http://au.linkedin.com/in/jiema" class="fa-icon icon-linkedin"></a>
+  </p>
+</header>
+<hr>
+
 {% for post in paginator.posts %}
-  <li>
-  {% if post.external-url %}
-  <a title="{{ post.title }}" rel="bookmark" href="{{ post.url }}" class="link_list_plus"><i class="icon-plus"></i></a>
-  <a href="{{ post.external-url }}" title="{{ post.title }}" class="postTitle">{{ post.title }}</a>
-  {% else %}
-  <a href="{{ post.url }}" title="{{ post.title }}" class="postTitle shiftTitle" rel="bookmark">{{ post.title }}</a>
-  {% endif %}
-  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%d %B %Y" }}</time>
-  </li>
+  <article>
+    <h3>
+    {% if post.external-url %}
+    <a title="{{ post.title }}" rel="bookmark" href="{{ post.url }}" class="permalink">&#9733;</a>
+    <a href="{{ post.external-url }}" title="{{ post.title }}" class="postTitle">{{ post.title }}</a>
+    {% else %}
+    <a href="{{ post.url }}" title="{{ post.title }}" class="postTitle shiftTitle" rel="bookmark">{{ post.title }}</a>
+    {% endif %}
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}" class="meta">{{ post.date | date:"%d %B %Y" }}</time>
+    </h3>
+  </article>
 {% endfor %}
-</ul>
 <!-- Pagination links -->
 
 <div class="pageNav">

@@ -6,16 +6,15 @@
 
     <title>{% if page.title %}{{ page.title }} :: {% endif %}{{ site.name }}</title>
 
-    <meta name="author" content="{{ site.author }}" />
+    <meta name="author" content="{{ site.fullname }}" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
 
-    <link href="{{ site.feed_url }}" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+    <link href="{{ site.feed_url }}" rel="alternate" title="{{ site.name }}" type="application/atom+xml" />
 
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/screen.css">
+    <link rel="stylesheet" href="/css/font-awesome.css">
 
   </head>
   <body>
@@ -32,33 +31,10 @@
     </script>
     {% endif %}
 
-    <aside>
-
-      <a href="http://jma.im/"><img id="avatar" src="http://cdn.jma.im/uploads/avatar.jpg"></a>
-      <p>who i am</p>
-      <p>Hi. my name is Jie Ma. I am a web developer, and a <a href="http://www.facebook.com/mrawphotography">Photographer</a>. Welcome to my website.</p>
-      <p>You can find me at</p>
-      <ul>
-        <li><a href="http://twitter.com/imjma/">Twitter</a></li>
-        <li><a href="http://github.com/imjma/">Github</a></li>
-        <li><a href="http://www.flickr.com/photos/kenziii">Flickr</a></li>
-        <li><a href="https://www.facebook.com/jiema">Facebook</a></li>
-        <li><a href="http://500px.com/mraw/">500px</a></li>
-        <li><a href="http://au.linkedin.com/in/jiema">Linkedin</a></li>
-      </ul>
-      <br style="clear: both" />
-    </aside>
-
-    <section id="main">
-    {{ content }}
-    </section>
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-    <script>
-    $(function() {
-      $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto');
-    });
-    </script>
-    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=desert"></script>
+    <div>
+      <section>
+      {{ content }}
+      </section>
+    </div>
   </body>
 </html>
