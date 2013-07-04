@@ -7,7 +7,7 @@ body {
     background-color: #edebea;
     color: #4f4f4f;
 
-    &>div {
+    & > div {
       width: 40em;
       padding: 3em 3em 1.5em;
       margin: 3em auto;
@@ -40,8 +40,14 @@ h3 {
     font-size: 18px;
     line-height: 24px;
 }
-section>h3 {
-    margin: 0 0 24px 0;
+section {
+    & > h3 {
+      margin: 0 0 24px 0;
+    }
+
+    & > .comment {
+      margin-top: 20px;
+    }
 }
 p, ul, ol, dl {
     line-height: 24px;
@@ -163,7 +169,7 @@ dl .meta {
 
 @media (max-width: 800px) {
   header {
-    width: 100%;
+    width: 95%;
     height: auto;
     position: static;
   }
