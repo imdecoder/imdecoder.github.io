@@ -23,7 +23,7 @@ And other options which you can select as you like.
 Make sure you tick `Simulaate x deletes before executing`,
 otherwise the trigger phrase won't be deleted before expansion is inserted.
 
-![Trigger](http://cl.ly/UtY2)
+![Trigger](http://jma.im/files/keyboard-maestro-trigger.png)
 
 ###Actions
 
@@ -33,7 +33,7 @@ There are only two actions. One is **Insert Text**, and another is **Delete Past
 
 **Delete Past Clipboard** action, change the value to 0(default is 1), because **Insert Text** action will paste the expansion to clipboard, and replace any previously copied.
 
-![Actions](http://cl.ly/Uu4F)
+![Actions](http://jma.im/files/keyboard-maestro-actions.png)
 
 [km]: http://www.keyboardmaestro.com/
 [te]: https://smilesoftware.com/TextExpander/
