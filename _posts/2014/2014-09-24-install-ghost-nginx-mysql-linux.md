@@ -105,7 +105,9 @@ npm install forever -g
 
 ###Setup Ghost
 
-Open ghost config file
+Copy over the example config file and then edit it
+
+`cp config.example.js config.js`
 
 `vim /var/www/ghost/config.js`
 
@@ -127,9 +129,12 @@ database: {
 },
 ```
 
+
+###Run Ghost as background process
+
 Fix all permission
 
-`chown www-data:www-data /var/www/ghost`
+`chown -R www-data:www-data /var/www/ghost`
 
 Then run ghost as background process by [forever](6) (you can find other deply methods in [here](7))
 
@@ -159,11 +164,11 @@ server {
 
 enable this site
 
-`ln -s /etc/nginx/sites-available/ghost /etc/nginx/sites-enable/ghost`
+`ln -s /etc/nginx/sites-available/ghost /etc/nginx/sites-enabled/ghost`
 
 restart nginx
 
-`etc/init.d/nginx restart`
+`/etc/init.d/nginx restart`
 
 ###Open Ghost
 
