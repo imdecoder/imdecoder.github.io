@@ -4,12 +4,12 @@ layout: default
 
 <article>
   <header>
-  <a title="Go to homepage" class="home" href="/"><i class="icon-home icon-3x"></i></a>
+  <a title="Go to homepage" class="home" href="/"><i class="fa fa-home"></i></a>
   <h1>
     {{ page.title }}
   </h1> 
   {% if page.external-url %}
-    <a href="{{ page.external-url }}" title="{{ page.title }}"><i class="icon-external-link"></i></a>
+    <a href="{{ page.external-url }}" title="{{ page.title }}"><i class="fa fa-external-link"></i></a>
   {% endif %}
   <p class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">on {{ page.date | date_to_long_string }}</time></p>
   </header>
@@ -21,7 +21,7 @@ layout: default
   <section class="postMeta">
     {% if page.tags %}
     <span class="tags">
-      <i class="icon-tag add-on"></i>
+      <i class="fa fa-tag add-on"></i>
       {% for tag in page.tags %}
       <a href="/tags.html#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
       {% endfor %}
