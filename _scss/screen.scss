@@ -186,7 +186,13 @@ header nav span {
     width: 95%;
     height: auto;
     position: static;
+    margin: auto;
   }
+
+  article {
+    width: 95%;
+    margin: auto;
+  } 
 
   body > div {
     width: 100%;
