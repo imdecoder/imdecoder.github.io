@@ -35,6 +35,13 @@
       <section>
       {{ content }}
       </section>
+
+      <footer>
+          <div>
+            {% assign first_post = site.posts | last %}
+            &copy; {{ first_post.date | date: "%Y" }} ~ {{ site.time | date: "%Y" }} {{ site.author }} | powered by jekyll | fork <a href="https://github.com/imdecoder/imdecoder.github.io" title="fork me">me</a>
+          </div>
+        </footer>
     </div>
   </body>
 </html>
