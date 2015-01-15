@@ -54,8 +54,7 @@ p, ul, ol, dl {
     margin: 0 0 24px 0;
 }
 p.intro {
-    font-size: 24px;
-  line-height: 32px;
+    font-size: 18px;
 }
 ul {
     list-style-type: square;
@@ -166,6 +165,21 @@ dl .meta {
     list-style-type: decimal !important;
   }
 }
+
+header #header {
+      display: inline-block;
+      position: relative;
+      top: 1em;
+    }
+
+header nav {
+      display: inline-block;
+      position: relative;
+      top: 1em;
+    }
+header nav span {
+        margin: .5em;
+      }
 
 @media (max-width: 800px) {
   header {

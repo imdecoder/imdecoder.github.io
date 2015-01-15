@@ -10,6 +10,7 @@ tags:
 categories:
   - dev
 external-url: 
+show: excerpt
 ---
 
 Recently I setup Laravel enviroment on my Macbook, when I create project or run php artisan, it always prompts `Mcrypt PHP extension required.` error for me. Becuase I am using vagrant homestead for Laravel development, I can `homestead ssh` to run commands, but I think it’s better and convenience for me to install Mcrypt on my local enviroment. Then I did some reseach, and setup Mcrypt with mac native PHP.  
