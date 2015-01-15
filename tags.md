@@ -4,7 +4,7 @@ layout: default
 ---
 
 <header>
-<a title="Go to homepage" class="home" href="/"><i class="icon-home icon-3x"></i></a>
+<a title="Go to homepage" class="home" href="/"><i class="fa fa-home"></i></a>
 <h1>{{ page.title }}</h1> 
 </header>
 
