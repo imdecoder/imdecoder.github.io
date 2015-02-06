@@ -77,6 +77,7 @@ tags:
 categories:
   - 
 external-url: #{link}
+show: excerpt
 ---
 
 HTML

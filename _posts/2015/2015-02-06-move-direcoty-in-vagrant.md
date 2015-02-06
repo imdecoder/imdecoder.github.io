@@ -10,6 +10,7 @@ tags:
 categories:
   - dev
 external-url: 
+show: excerpt
 ---
 
 [1]: https://laracasts.com/lessons/get-off-mamp-now
