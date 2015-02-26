@@ -12,7 +12,7 @@ external-url:
 show: excerpt
 ---
 
-I was using [Vaprobash][vaprobash] as basic starting Vagranfile which is working perfectly. However, there are too many settings I will never use, I think it's a better idea I make my own Vagranfile.
+I was using [Vaprobash][vaprobash] as basic starting Vagranfile which is working perfectly '[post is here](/2015/02/05/move-direcoty-in-vagrant.html)'. However, there are too many settings I will never use, I think it's a better idea I make my own Vagranfile.
 
 I vagranted up a new empty box, and run each commands to setup my LAMP environment, and recorded each command to shell scripts, that make sure all commands are just what I need.
 
