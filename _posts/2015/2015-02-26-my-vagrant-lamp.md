@@ -16,11 +16,12 @@ I was using [Vaprobash][vaprobash] as basic starting Vagranfile which is working
 
 I vagranted up a new empty box, and run each commands to setup my LAMP environment, and recorded each command to shell scripts, that make sure all commands are just what I need.
 
+Download my Vagrant LAMP:
 **[My Vagrant LAMP][vagrant-lamp]**
 
 TODO:
-* remote call shell scripts like Vaprobash
-* use puppet might be better
+- remote call shell scripts like Vaprobash
+- use puppet might be better
 
 [vagrant-lamp]: https://github.com/imdecoder/vagrant-lamp
 [vaprobash]: https://github.com/fideloper/Vaprobash
