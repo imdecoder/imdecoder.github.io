@@ -37,6 +37,7 @@ There is missing `provision` command
 Solution is:
 
 list all vagrant instance
+
 ```
 $ vagrant global-status
 id       name      provider   state    directory
@@ -45,6 +46,7 @@ id       name      provider   state    directory
 ```
 
 then run provision with id
+
 ```
  $ vagrant provision 6e1aa4
  ```
