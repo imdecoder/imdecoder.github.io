@@ -25,6 +25,7 @@ Pre-installation
 	$ fdisk /dev/sda
 
 boot
+
 ```
 > n
 > return (default primary)
@@ -34,6 +35,7 @@ boot
 ```
 
 swap
+
 ```
 > n
 > return (default primary)
@@ -43,6 +45,7 @@ swap
 ```
 
 /
+
 ```
 > n
 > return (default primary)
@@ -53,6 +56,7 @@ swap
 ```
 
 /home
+
 ```
 > n
 > p (make primary)
@@ -68,6 +72,7 @@ make /dev/sda1 bootable
 ```
 
 make /dev/sda1 to swap type partition
+
 ```
 > t
 > 2
@@ -75,6 +80,7 @@ make /dev/sda1 to swap type partition
 ```
 
 write table to disk and exit fdisk
+
 ```
 > w
 ```
@@ -114,6 +120,7 @@ Installation
 ### Select the mirrors
 
 rankmirrors to make this faster (though it takes a while)
+
 ```
 mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.orig
 rankmirrors -n 6 /etc/pacman.d/mirrorlist.orig \>/etc/pacman.d/mirrorlist
@@ -199,6 +206,7 @@ turn on multi lib to install 32bit applications
     $ vi /etc/pacman.conf
 
 uncomment
+
 ```
 [multilib](#)
 Include = /etc/pacman.d/mirrorlist
@@ -227,9 +235,11 @@ $ modprobe -a vboxguest vboxsf vboxvideo
 ```
 
 create
+
 	$ vi /etc/modules-load.d/virtualbox.conf
 
 add
+
 ```
 vboxguest
 vboxsf
