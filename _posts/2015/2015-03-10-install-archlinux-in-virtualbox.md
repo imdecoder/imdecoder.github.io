@@ -25,54 +25,54 @@ Pre-installation
 	$ fdisk /dev/sda
 
 boot
-````
+```
 > n
 > return (default primary)
 > return (default partition 1)
 > return (default first sector)
 > +250M
-````
+```
 
 swap
-````
+```
 > n
 > return (default primary)
 > return (default partition 2)
 > return (default first sector)
 > +2G
-````
+```
 
 /
-````
+```
 > n
 > return (default primary)
 > return (default partition 3)
 > return (default first sector)
 > +2G
 > return
-````
+```
 
 /home
-````
+```
 > n
 > p (make primary)
 > return (default first sector)
 > return (default last sector)
-````
+```
 
 make /dev/sda1 bootable
 
-````
+```
 > a
 > 1
-````
+```
 
 make /dev/sda1 to swap type partition
-````
+```
 > t
 > 2
 > 82
-````
+```
 
 write table to disk and exit fdisk
 ```
@@ -122,10 +122,10 @@ pacman -Syy
 
 ### Install the base packages
 
-````
+```
 # install base packages (take a coffee break if you have slow internet)
 pacstrap /mnt base base-devel
-````
+```
 
 ### Configure the system
 
@@ -199,10 +199,10 @@ turn on multi lib to install 32bit applications
     $ vi /etc/pacman.conf
 
 uncomment
-````
+```
 [multilib](#)
 Include = /etc/pacman.d/mirrorlist
-````
+```
 
 update packages
 
@@ -230,11 +230,11 @@ create
 	$ vi /etc/modules-load.d/virtualbox.conf
 
 add
-````
+```
 vboxguest
 vboxsf
 vboxvideo
-````
+```
 
 	$ reboot
 
