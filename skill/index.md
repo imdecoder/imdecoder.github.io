@@ -5,7 +5,7 @@ comment: false
 share: false
 ---
 
-###Development
+### Development
 
 - `PHP` - Object-oriented programming
 - `SQL` - MySQL
@@ -13,12 +13,12 @@ share: false
 - `Versioning` - Git
 - `Package Managers` - Composer
 
-###PHP Frameworks
+### PHP Frameworks
 
 - `Symfony` - Basic knowledge
 - `Laravel` - Basic knowledge
 
-###System
+### System
 
 - `Linux` - Ubuntu, CoreOS
 
