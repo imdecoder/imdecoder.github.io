@@ -50,14 +50,14 @@ owner:
   facebook: #username
   google:
     plus: #username
-    analytics:
+    analytics: UA-42070578-1
     verify:
     ad-client:
     ad-slot:
   bing-verify:
   github: imdecoder
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: jiema
   xing: #username
   instagram: imdecoder
   lastfm: #username
