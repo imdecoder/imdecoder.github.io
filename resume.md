@@ -1,12 +1,9 @@
 ---
-title: 'Resume :: Jie Ma'
+title: Jie Ma
 layout: page
 comment: false
 ---
 
-Jie Ma (Jay)
-------
-----
 - Sydney
 - <codejma@gmail.com>
 - 0433 808 445
@@ -16,29 +13,29 @@ Jie Ma (Jay)
 
 ----
 
-## Experience
+# Experience
 
-### Agentbox . Sydney . 2009 - Present
+## Agentbox . Sydney . 2009 - Present
 
-**Senior PHP Product Developer**
+##PHP Product Developer && Version Manager
 
 - Responsible for the development of Agentbox CRM system
 - Responsible for the codebases version control
 
-**Projects**
+##Projects
 
-- Email Distributed System
+###Email Distributed System
 
     When client requests sending emails, it will slice it into parts 
     and distribute each part to different email servers by random,
     and call to send emails through centralized server on order. 
 
-- Realestate Portals Export System
+###Realestate Portals Export System
 
     Exporting client's properties information with xml format,
     to protals, such as realestate, domain, and others.
 
-- Email Log Analysis System
+###Email Log Analysis System
 
     It analysises email logs which receives from portals such as
     realestate and domain, and add analysis results to database,
@@ -46,14 +43,24 @@ Jie Ma (Jay)
 
 ----
 
-## Skills
+##Skills
 
-- PHP
-- MySQL
-- JavaScript
-- HTML
-- CSS
-- Ruby on Rails
+###Development
+
+- `PHP` - Object-oriented programming
+- `SQL` - MySQL
+- `JavaScript` - jQuery, Mootools
+- `Versioning` - Git
+- `Package Managers` - Composer
+
+###PHP Frameworks
+
+- `Symfony` - Basic knowledge
+- `Laravel` - Basic knowledge
+
+###System
+
+- `Linux` - Ubuntu, CoreOS
 
 ----
 
