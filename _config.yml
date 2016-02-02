@@ -69,7 +69,7 @@ owner:
   youtube: #username
   soundcloud: #username
   weibo: kenziii
-  flickr: idakkon
+  flickr: dakkon
   codepen: #username
 
 include: [".htaccess"]
