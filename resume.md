@@ -4,6 +4,8 @@ layout: page
 comment: false
 ---
 
+{% include _toc.html %}
+
 - Sydney
 - <codejma@gmail.com>
 - 0433 808 445
@@ -17,12 +19,12 @@ comment: false
 
 ## Agentbox . Sydney . 2009 - Present
 
-##PHP Product Developer && Version Manager
+###PHP Product Developer && Version Manager
 
 - Responsible for the development of Agentbox CRM system
 - Responsible for the codebases version control
 
-##Projects
+#Projects
 
 ###Email Distributed System
 
@@ -43,7 +45,7 @@ comment: false
 
 ----
 
-##Skills
+#Skills
 
 ###Development
 
@@ -64,7 +66,7 @@ comment: false
 
 ----
 
-## Eduction
+# Eduction
 
 ### Master of Computer Science
 
