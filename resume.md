@@ -19,25 +19,25 @@ comment: false
 
 ## Agentbox . Sydney . 2009 - Present
 
-###PHP Product Developer && Version Manager
+### PHP Product Developer && Version Manager
 
 - Responsible for the development of Agentbox CRM system
 - Responsible for the codebases version control
 
-#Projects
+# Projects
 
-###Email Distributed System
+### Email Distributed System
 
     When client requests sending emails, it will slice it into parts 
     and distribute each part to different email servers by random,
     and call to send emails through centralized server on order. 
 
-###Realestate Portals Export System
+### Realestate Portals Export System
 
     Exporting client's properties information with xml format,
     to protals, such as realestate, domain, and others.
 
-###Email Log Analysis System
+### Email Log Analysis System
 
     It analysises email logs which receives from portals such as
     realestate and domain, and add analysis results to database,
@@ -45,9 +45,9 @@ comment: false
 
 ----
 
-#Skills
+# Skills
 
-###Development
+### Development
 
 - `PHP` - Object-oriented programming
 - `SQL` - MySQL
@@ -55,12 +55,12 @@ comment: false
 - `Versioning` - Git
 - `Package Managers` - Composer
 
-###PHP Frameworks
+### PHP Frameworks
 
 - `Symfony` - Basic knowledge
 - `Laravel` - Basic knowledge
 
-###System
+### System
 
 - `Linux` - Ubuntu, CoreOS
 
