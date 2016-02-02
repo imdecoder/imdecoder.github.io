@@ -1,13 +1,11 @@
---- 
+---
 layout: post
-title: "About Rails Depoly"
-date: 2012-08-07 23:57:31 +1000
+title: About Rails Depoly
+excerpt: ""
+tags: [dev, rails, database]
+categories: dev
+comments: true
 guid: urn:uuid:05e387ce-f6ea-4079-a498-f7bb9e06f731
-tags:
-  - rails
-  - mongodb
-categories:
-  - dev
 ---
 
 This topic is about some general problems when I depoly rails app.

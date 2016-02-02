@@ -1,13 +1,11 @@
 ---
 layout: post
-title: "Keyboard Maestro as a replacement for TextExpander"
-date: 2014-04-09 12:11:56 +1000
+title: Keyboard Maestro as a replacement for TextExpander
+excerpt: ""
+tags: [mac, app]
+categories: mac
+comments: true
 guid: urn:uuid:e579d753-4c72-44fd-b2ff-e12e81517f1b
-tags:
-  - app mac textexpander tips keyboardmaestro
-categories:
-  - app
-external-url:
 ---
 
 Recently, I started to try [Keyboard Maestro][km], and some people talked about it can be used as a replacement for [TextExpander][te].
@@ -23,17 +21,17 @@ And other options which you can select as you like.
 Make sure you tick `Simulaate x deletes before executing`,
 otherwise the trigger phrase won't be deleted before expansion is inserted.
 
-![Trigger](http://jma.im/files/keyboard-maestro-trigger.png)
+![Trigger](https://s3.amazonaws.com/f.cl.ly/items/0q0Y0D3t2K2D3l440L1f/keyboard-maestro-trigger.png?v=689c61e2)
 
 ###Actions
 
 There are only two actions. One is **Insert Text**, and another is **Delete Past Clipboard**
 
-**Insert Text** action, type the expansioni into the textarea, and you also can use **Insert Token** to add variables of [Keyboard Maestro][te] given.
+**Insert Text** action, type the expansion into the textarea, and you also can use **Insert Token** to add variables of [Keyboard Maestro][te] given.
 
 **Delete Past Clipboard** action, change the value to 0(default is 1), because **Insert Text** action will paste the expansion to clipboard, and replace any previously copied.
 
-![Actions](http://jma.im/files/keyboard-maestro-actions.png)
+![Actions](https://s3.amazonaws.com/f.cl.ly/items/2g0w0w3L0y1k1Y0H1z2G/keyboard-maestro-actions.png?v=2c420e6a)
 
 [km]: http://www.keyboardmaestro.com/
 [te]: https://smilesoftware.com/TextExpander/

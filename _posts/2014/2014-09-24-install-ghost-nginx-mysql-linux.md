@@ -1,19 +1,11 @@
 ---
 layout: post
-title: "Install Ghost with Nginx and MySQL"
-date: 2014-09-24 20:43:07 +1000
+title: Install Ghost with Nginx and MySQL
+excerpt: ""
+tags: [howto, linux, ghost, blog]
+categories: howto
+comments: true
 guid: urn:uuid:d7ae1475-8a7a-476b-a260-24bbb61c74ce
-tags:
-  - tutorial
-  - howto
-  - linux
-  - ghost
-  - blog
-  - nginx
-  - server
-categories:
-  - dev
-external-url: 
 ---
 
 [1]: http://0v.org/installing-ghost-on-ubuntu-nginx-and-mysql/
@@ -27,51 +19,60 @@ external-url:
 The steps I installed Ghost blog on Linode with Debian 7.5
 
 ###Prepare
-```
+~~~
 apt-get update
 apt-get upgrade
 apt-get install -y build-essential
-```
+~~~
 
 ###Installing Nginx
-`apt-get install nginx`
+~~~
+apt-get install nginx
+~~~
 
 ###Install Node.js
 
-Based on [here](3)
+>Based on [here](3)
 
 Setup with Debian (as root):
 
-`curl -sL https://deb.nodesource.com/setup | sudo bash -`
+~~~
+curl -sL https://deb.nodesource.com/setup | sudo bash -
+~~~
 
 Then install with Debian (as root):
 
-`apt-get install -y nodejs nodejs-legacy`
+~~~
+apt-get install -y nodejs nodejs-legacy
+~~~
 
 ###Install MySQL
 
-`apt-get install mysql-client mysql-server`
+~~~
+apt-get install mysql-client mysql-server
+~~~
 
-Secure MySQL
+###Secure MySQL
 
-`mysql_secure_installation`
+~~~
+mysql_secure_installation
+~~~
 
-Issue the following command to restart MySQL after making configuration changes:
+###Restart MySQL
 
-`/etc/init.d/mysql restart`
+~~~
+/etc/init.d/mysql restart
+~~~
 
 or
 
-`service mysql restart`
+~~~
+service mysql restart
+~~~
 
-Using MySQL
+Using MySQL `mysql -u root -p` to setup database:
 
-`mysql -u root -p`
-
-Setup database:
-
-
-```
+~~~
 CREATE DATABASE YOUR_DATABASE;
 
 CREATE USER 'YOUR_USERNAME' IDENTIFIED BY 'YOUR_PASSWORD';
@@ -79,44 +80,48 @@ CREATE USER 'YOUR_USERNAME' IDENTIFIED BY 'YOUR_PASSWORD';
 GRANT ALL PRIVILEGES ON YOUR_DATABASE.* TO 'YOUR_USERNAME';
 
 exit
-```
+~~~
 
 ###Install Ghost
 
-Based on [here](2)
+>Based on [here](2)
 
 created `/var/www/ghost` as ghost folder
 
-```
+~~~
 mkdir -p /var/www/
 cd /var/www/
 curl -L https://ghost.org/zip/ghost-latest.zip -o ghost.zip
 unzip -uo ghost.zip -d ghost
 cd /var/www/ghost
-```
+~~~
 
 Then setup ghost environment
 
-```
+~~~
 npm install --production
 npm install mysql
 npm install forever -g
-```
+~~~
 
 ###Setup Ghost
 
 Copy over the example config file and then edit it
 
-`cp config.example.js config.js`
+~~~
+cp config.example.js config.js
 
-`vim /var/www/ghost/config.js`
+vim /var/www/ghost/config.js
+~~~
 
 Change production default url to your domain and setup MySQL database
 
-`url: 'http://YOUR_DOMAIN',`
+~~~
+url: 'http://YOUR_DOMAIN',
+~~~
 
 
-```
+~~~
 database: {
 	client: 'mysql',
 	connection: {
@@ -127,24 +132,30 @@ database: {
 		charset: 'utf8'
 	}
 },
-```
+~~~
 
 
 ###Run Ghost as background process
 
 Fix all permission
 
-`chown -R www-data:www-data /var/www/ghost`
+~~~
+chown -R www-data:www-data /var/www/ghost
+~~~
 
 Then run ghost as background process by [forever](6) (you can find other deply methods in [here](7))
 
-`NODE_ENV=production forever start index.js`
+~~~
+NODE_ENV=production forever start index.js
+~~~
 
 ###Setup Nginx
 
-`vim /etc/nginx/sites-available/ghost`
+~~~
+vim /etc/nginx/sites-available/ghost
+~~~
 
-```
+~~~
 server {
     listen 80;
 
@@ -160,15 +171,19 @@ server {
         proxy_pass			http://127.0.0.1:2368;
     }
 }
-```
+~~~
 
-enable this site
+#Enable this site
 
-`ln -s /etc/nginx/sites-available/ghost /etc/nginx/sites-enabled/ghost`
+~~~
+ln -s /etc/nginx/sites-available/ghost /etc/nginx/sites-enabled/ghost
+~~~
 
-restart nginx
+#Restart nginx
 
-`/etc/init.d/nginx restart`
+~~~
+/etc/init.d/nginx restart
+~~~
 
 ###Open Ghost
 

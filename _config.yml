@@ -1,17 +1,76 @@
-markdown: rdiscount
-pygments: true
-auto: true
-permalink: /:year/:month/:day/:title.html
-name: $im = jma;
-url: jma.im
-author: jma
-fullname: Jie Ma
-paginate: 30
-ga_uid: 'UA-42070578-1'
-disqus_shortname: jmaim
-feed_url: 'http://feeds.feedburner.com/imjma'
-email: 'codejma@gmail.com'
-exclude:
-  - Rakefile
-  - pids
-  - config.rb
+# Site wide configuration
+
+title:            $im = jma;
+locale:           en_US
+url:
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+
+# Octopress
+
+# Default extensions
+post_ext: md
+page_ext: md
+
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
+
+
+# Site owner
+owner:
+  name: Jie Ma
+  avatar: bio-photo-jma.jpg
+  bio: "<b>web developer</b>, freelance photographer"
+  email:
+  disqus-shortname: jmaim
+  twitter: imdecoder
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: imdecoder
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  xing: #username
+  instagram: imdecoder
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: kenziii
+  flickr: idakkon
+  codepen: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

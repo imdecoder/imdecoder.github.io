@@ -1,16 +1,11 @@
---- 
+---
 layout: post
-title: "Archlinux in Virtualbox"
-date: 2015-03-10 19:57:04 +1100
+title: Archlinux in Virtualbox
+excerpt: "Install Arch Linux in Virtualbox"
+tags: [linux,archlinux]
+categories: dev
+comments: true
 guid: urn:uuid:23a4e2e0-8619-4852-8d82-1a513e5704b0
-tags:
-  - dev
-  - linux
-  - archlinux
-categories:
-  - dev
-external-url: 
-show: excerpt
 ---
 
 Install Arch Linux in Virtualbox
@@ -21,79 +16,80 @@ Pre-installation
 ---- 
 
 ### Partition the disks
-
-	$ fdisk /dev/sda
+~~~
+$ fdisk /dev/sda
+~~~
 
 boot
 
-```
+~~~
 > n
 > return (default primary)
 > return (default partition 1)
 > return (default first sector)
 > +250M
-```
+~~~
 
 swap
 
-```
+~~~
 > n
 > return (default primary)
 > return (default partition 2)
 > return (default first sector)
 > +2G
-```
+~~~
 
 /
 
-```
+~~~
 > n
 > return (default primary)
 > return (default partition 3)
 > return (default first sector)
 > +2G
 > return
-```
+~~~
 
 /home
 
-```
+~~~
 > n
 > p (make primary)
 > return (default first sector)
 > return (default last sector)
-```
+~~~
 
 make /dev/sda1 bootable
 
-```
+~~~
 > a
 > 1
-```
+~~~
 
 make /dev/sda1 to swap type partition
 
-```
+~~~
 > t
 > 2
 > 82
-```
+~~~
 
 write table to disk and exit fdisk
 
-```
+~~~
 > w
-```
+~~~
 
 ### Format the partitions
 
 format partitions
 
-```
+~~~
 $ mkfs.ext4 /dev/sda1
 $ mkfs.ext4 /dev/sda3
 $ mkfs.ext4 /dev/sda4
-```
+~~~
 
 make swap
 
@@ -105,14 +101,14 @@ mount swap
 
 ### Mount the partitions
 
-```
+~~~
 $ mount /dev/sda3 /mnt
 $ cd /mnt
 $ mkdir boot home
 $ mount /dev/sda1 boot
 $ mount /dev/sda4 home
 $ cd /
-```
+~~~
 
 Installation
 ---- 
@@ -121,18 +117,18 @@ Installation
 
 rankmirrors to make this faster (though it takes a while)
 
-```
+~~~
 mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.orig
 rankmirrors -n 6 /etc/pacman.d/mirrorlist.orig \>/etc/pacman.d/mirrorlist
 pacman -Syy
-```
+~~~
 
 ### Install the base packages
 
-```
+~~~
 # install base packages (take a coffee break if you have slow internet)
 pacstrap /mnt base base-devel
-```
+~~~
 
 ### Configure the system
 
@@ -166,27 +162,27 @@ Set the root password (root account ,not your account, we will create that later
 
 ### Install a bootloader
 
-```
+~~~
 $ pacman -S grub-bios
 $ grub-install /dev/sda
-```
+~~~
 
 Create a new initial RAM disk
 
-```
+~~~
 $ mkinitcpio -p linux
 $ grub-mkconfig -o /boot/grub/grub.cfg
 $ exit
-```
+~~~
 
 ### Unmount the partitions
 
-```
+~~~
 $ umount /mnt/home
 $ umount /mnt/boot
 $ umout /mnt
 $ reboot
-```
+~~~
 
 Until not, we finish installing archlinux, then we are going to setup the system.
 
@@ -207,17 +203,17 @@ turn on multi lib to install 32bit applications
 
 uncomment
 
-```
+~~~
 [multilib](#)
 Include = /etc/pacman.d/mirrorlist
-```
+~~~
 
 update packages
 
-```
+~~~
 $ pacman -Syy
 $ pacman -Su
-```
+~~~
 
 install x environment
 
@@ -229,10 +225,10 @@ intall mesa for 3d
 
 install virtualbox guest packages
 
-```
+~~~
 $ pacman -S virtualbox-guest-utils
 $ modprobe -a vboxguest vboxsf vboxvideo
-```
+~~~
 
 create
 
@@ -240,35 +236,29 @@ create
 
 add
 
-```
+~~~
 vboxguest
 vboxsf
 vboxvideo
-```
+~~~
 
 	$ reboot
 
 
 
-```
+~~~
 $ pacman -S xorg-twm xorg-xclock xterm
 $ startx
-```
+~~~
 
 create user to login
 
-```
+~~~
 $ useradd -m -g users -G storage,power,wheel -s /bin/bash jma
 $ passwd jma
 $ visudo
-```
+~~~
 
 allow user to run `sudo` command
 
-find
-
-`Uncomment to allow members of group wheel to execute any command`
-
-and uncomment
-
-`%wheel ALL=(ALL) ALL`
+find `Uncomment to allow members of group wheel to execute any command` and uncomment `%wheel ALL=(ALL) ALL`

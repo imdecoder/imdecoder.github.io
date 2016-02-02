@@ -1,13 +1,12 @@
---- 
+---
 layout: post
-title: "Powder manages Pow"
-date: Mon Aug 20 23:45:46 +1000 2012
+title: Powder manages Pow
+excerpt: ""
+tags: [dev, rails]
+categories: dev
+comments: true
+link: https://github.com/rodreegez/powder
 guid: urn:uuid:c088ab83-d851-4030-b069-651da405697e
-tags:
-  - rails
-categories:
-  - dev
-external-url: https://github.com/rodreegez/powder
 ---
 
 A good tools to manage [Pow](http://pow.cx)

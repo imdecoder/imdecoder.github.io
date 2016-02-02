@@ -1,21 +1,12 @@
---- 
-layout: post
-title: "500px Workflow for Alfred v2"
-date: 2013-04-08 22:44:09 +1000
-guid: urn:uuid:32d4ee95-7c43-462b-860e-14f5805a02a7
-tags:
-  - alfred
-  - workflow
-  - photography
-  - 500px
-categories:
-  - alfred
-  - workflow
-  - photography
-external-url: 
 ---
-
-![500px workflow](http://cdn.jma.im/uploads/500px-workflow-for-alfred-v2.png)
+layout: post
+title: 500px Workflow for Alfred v2
+excerpt: ""
+tags: [dev, app, photo, workflow]
+categories: workflow
+comments: true
+guid: urn:uuid:32d4ee95-7c43-462b-860e-14f5805a02a7
+---
 
 Please register your own api key on 500px via [here][3], and put `Consumer Key` after `$api=""` in workflow.
 

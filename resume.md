@@ -1,6 +1,7 @@
 ---
 title: 'Resume :: Jie Ma'
-layout: markdown
+layout: page
+comment: false
 ---
 
 Jie Ma (Jay)

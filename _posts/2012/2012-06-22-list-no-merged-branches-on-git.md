@@ -1,12 +1,11 @@
---- 
+---
 layout: post
-title: "List no merged branches on git"
-date: 2012-06-22 09:20:51 +1000
+title: List no merged branches on git
+excerpt: ""
+tags: [dev, git]
+categories: dev
+comments: true
 guid: urn:uuid:db375aa9-b9f1-4815-94fd-e725f94ef2c4
-tags:
-  - git
-categories:
-  - dev
 ---
 
 We are using [git-flow](http://nvie.com/posts/a-successful-git-branching-model/) as git branching model to do development.

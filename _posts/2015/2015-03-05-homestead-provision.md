@@ -1,21 +1,17 @@
---- 
+---
 layout: post
-title: "Homestead provision"
-date: 2015-03-05 14:02:59 +1100
+title: Homestead provision
+excerpt: ""
+tags: [homestead, vagrant]
+categories: dev
+comments: true
 guid: urn:uuid:1fff422a-1c45-4e55-8cc4-474ae6d9b75a
-tags:
-  - dev
-  - homestead
-  - vagrant
-categories:
-  - dev
-external-url: 
-show: excerpt
 ---
 
 Laravel [Homestead][homestead] commands:
 
-```
+~~~ shell
+
 Available commands:
   destroy   Destroy the Homestead machine
   edit      Edit the Homestead.yaml file
@@ -30,7 +26,8 @@ Available commands:
   suspend   Suspend the Homestead machine
   up        Start the Homestead machine
   update    Update the Homestead machine image
-```
+
+~~~
 
 There is missing `provision` command
 
@@ -38,17 +35,17 @@ Solution is:
 
 list all vagrant instance
 
-```
+~~~
 $ vagrant global-status
 id       name      provider   state    directory
 -------------------------------------------------------------------------------------
 6e1aa44  default   virtualbox poweroff /Users/[whoami]/.composer/vendor/laravel/homestead
-```
+~~~
 
 then run provision with id
 
-```
+~~~
  $ vagrant provision 6e1aa4
- ```
+~~~
 
 [homestead]: https://github.com/laravel/homestead

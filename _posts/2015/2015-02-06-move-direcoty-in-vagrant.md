@@ -1,16 +1,11 @@
---- 
+---
 layout: post
-title: "Vagrant: Move Project Directory"
-date: 2015-02-06 10:58:04 +1100
+title: Vagrant Move Project Directory
+excerpt: ""
+tags: [vagrant]
+categories: dev
+comments: true
 guid: urn:uuid:aa7f724f-420d-4e79-8b18-5cd7ea175d28
-tags:
-  - dev
-  - code
-  - vagrant
-categories:
-  - dev
-external-url: 
-show: excerpt
 ---
 
 I started to move my development works on my local envirnoment setup to [Vagrant][3]. Since I like to reinstall my system once major update released like Mac OSX 10.9 to 10.10, this will save lots of time for me.

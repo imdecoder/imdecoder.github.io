@@ -1,18 +1,12 @@
---- 
+---
 layout: post
-title: "Monday Calendar"
-date: 2012-08-28 22:17:12 +1000
+title: Monday Calendar
+excerpt: ""
+tags: [app]
+categories: app
+comments: true
+link: http://mondayapp.com/
 guid: urn:uuid:7ae54e20-c959-42b9-a153-3faeb480bda8
-tags:
-  - app
-  - review
-  - mondayapp
-  - calendar
-  - monday
-categories:
-  - app
-  - review
-external-url: http://mondayapp.com/
 ---
 
 ![Monday Calendar](http://mondayapp.com/images/monday-on-browser.png)

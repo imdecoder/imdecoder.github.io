@@ -1,20 +1,18 @@
 ---
 layout: post
-title: "SSH Password for Windows Git bash"
-date: 2014-04-16 11:31:44 +1000
+title: SSH Password for Windows Git bash
+excerpt: ""
+tags: [git]
+categories: dev
+comments: true
 guid: urn:uuid:be54dc3f-cf5b-4ff4-98ee-3ea2ee26093c
-tags:
-  - tips git
-categories:
-  - dev
-external-url:
 ---
 
 I think it's more effective to use git cli than gui whatever which system you are using.
 
 For example, you need switch branch, it's just one line in cli
 
-    git checkout [branch]
+> git checkout [branch]
 
 But (eg. windows) you need right click -> choose command -> click -> choose branch -> click
 
@@ -32,7 +30,9 @@ Please find this file, if you could not find it, then create one.
 
 In this file, add below's code
 
-	eval `ssh-agent`
-	ssh-add
+~~~
+eval `ssh-agent`
+ssh-add
+~~~
 
 Now every time, when you open a new git bash window, it will your password once, and you can run as many commands as you want without popup to ask your password again.

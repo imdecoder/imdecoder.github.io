@@ -8,5 +8,3 @@
 # TECHNOLOGY COLOPHON
 
     Jekyll + Github
-    HTML5, CSS3 (SCSS)
-    jQuery

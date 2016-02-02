@@ -1,16 +1,11 @@
---- 
+---
 layout: post
-title: "Running Pow And MAMP Pro Together"
-date: 2012-08-15 16:48:06 +1000
+title: Running Pow And MAMP Pro Together
+excerpt: ""
+tags: [mac, app, dev]
+categories: dev
+comments: true
 guid: urn:uuid:b1e5ee85-72ab-4dcb-b714-5110acd040b1
-tags:
-  - pow
-  - mamp
-  - mac
-categories:
-  - mac
-  - app
-  - dev
 ---
 
 [pow]: http://pow.cx

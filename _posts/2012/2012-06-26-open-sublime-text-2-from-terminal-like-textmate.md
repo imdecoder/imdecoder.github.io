@@ -1,15 +1,11 @@
---- 
+---
 layout: post
-title: "Open Sublime Text 2 from Terminal Like TextMate"
-date: 2012-06-26 21:55:47 +1000
+title: Open Sublime Text 2 from Terminal Like TextMate
+excerpt: ""
+tags: [app]
+categories: app
+comments: true
 guid: urn:uuid:1b212649-9a63-4824-8c95-fd974e230fd9
-tags:
-  - sublime text
-  - editor
-  - tips
-categories:
-  - mac
-  - app
 ---
 
 ### Updated@2012-06-26 23:00 +1000:

@@ -1,16 +1,13 @@
---- 
-layout: post
-title: "Jekyll and Vagrant"
-date: 2013-06-20 16:47:46 +1000
-guid: urn:uuid:ce55c8e0-d34c-4a24-8227-aebcbd057888
-tags:
-  - dev
-  - vagrant
-  - jekyll
-categories:
-  - dev
-external-url: 
 ---
+layout: post
+title: Jekyll and Vagrant
+excerpt: ""
+tags: [dev, vagrant, jekyll]
+categories: dev
+comments: true
+guid: urn:uuid:ce55c8e0-d34c-4a24-8227-aebcbd057888
+---
+
 [1]: http://www.vagrantup.com/
 Sometimes I want to run jekyll on office's computer which is using windows. I dont want to spend too much time to setup ruby or compile setup on windows, or even install linux on office's computer. [Vagrant][1] is a quick virtual machines to do the work!
 
