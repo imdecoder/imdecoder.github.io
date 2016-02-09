@@ -75,3 +75,7 @@ Univeristy of Wollongong . 2007 - 2008
 ### Bachelor of Computer Science
 
 Univeristy of Wollongong . 2005 - 2007
+
+
+----
+###[PDF Version](http://jma.im/files/resume.pdf)
