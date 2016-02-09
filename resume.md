@@ -78,4 +78,4 @@ Univeristy of Wollongong . 2005 - 2007
 
 
 ----
-###[PDF Version](http://jma.im/files/resume.pdf)
+### [PDF Version](http://jma.im/files/resume.pdf)
