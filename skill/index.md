@@ -12,6 +12,8 @@ share: false
 - `JavaScript` - jQuery, Mootools
 - `Versioning` - Git
 - `Package Managers` - Composer
+- `Tools` - Jira, Stash, Trelle, Confluence
+- `Editors` - Vim, PhpStorm, Sublime Text
 
 ### PHP Frameworks
 

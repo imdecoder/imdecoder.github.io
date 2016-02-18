@@ -19,10 +19,10 @@ comment: false
 
 ## Agentbox . Sydney . 2009 - Present
 
-### PHP Product Developer && Version Manager
+### PHP Developer && Version Manager
 
 - Responsible for the development of Agentbox CRM system
-- Responsible for the codebases version control
+- Responsible for the codebases version control (code review and pull request)
 
 # Projects
 
@@ -54,6 +54,8 @@ comment: false
 - `JavaScript` - jQuery, Mootools
 - `Versioning` - Git
 - `Package Managers` - Composer
+- `Tools` - Jira, Stash, Trello, Confluence
+- `Editors` - Vim, PhpStorm, Sublime Text
 
 ### PHP Frameworks
 
@@ -79,3 +81,5 @@ Univeristy of Wollongong . 2005 - 2007
 
 ----
 ### [PDF Version](http://jma.im/files/resume.pdf)
+
+
