@@ -19,25 +19,61 @@ comment: false
 
 ## Agentbox . Sydney . 2009 - Present
 
-### PHP Developer && Version Manager
+### PHP Developer
 
-- Responsible for the development of Agentbox CRM system
-- Responsible for the codebases version control (code review and pull request)
+#### Agentbox CRM System
 
-# Projects
+Agentbox CRM System is a leading CRM system to the Australian real estate industry. System is built by PHP with procedure code. We moved to use Symonfy 2 framwork from the end of 2015 that make the code more reuseable, readable and efficiency.
 
-### Email Distributed System
+Architecture:
+
+- Symonfy 2
+- MySQL
+- LAMP
+- Composer
+- Mootools + jQuery
+
+Responsibility:
+
+- Maintain legacy business logical code
+- Refactor legacy business logical code into Symonfy framework
+- Develop and maintain new features/business logic with Symonfy framework
+
+#### Agentbox GO System
+
+Agentbox GO System is a mobile and simplify version of Agentbox CRM System. System is build by PHP with procedure code. We are still moving to use Symonfy 2 framework that built for Agentbox CRM System.
+
+Architecture:
+
+- PHP
+- MySQL
+- LAMP
+- jQuery Mobi
+
+Responsibility:
+
+- Maintain system for bugfix.
+
+#### Version Coordinator
+
+- Responsible to review the code of pull request
+- Responsible to release new version to clients
+- Responsible to maintain and develop internal client manangment system
+
+### Projects
+
+#### Email Distributed System
 
     When client requests sending emails, it will slice it into parts 
     and distribute each part to different email servers by random,
     and call to send emails through centralized server on order. 
 
-### Realestate Portals Export System
+#### Realestate Portals Export System
 
     Exporting client's properties information with xml format,
     to protals, such as realestate, domain, and others.
 
-### Email Log Analysis System
+#### Email Log Analysis System
 
     It analysises email logs which receives from portals such as
     realestate and domain, and add analysis results to database,
@@ -55,7 +91,7 @@ comment: false
 - `Versioning` - Git
 - `Package Managers` - Composer
 - `Tools` - Jira, Stash, Trello, Confluence
-- `Editors` - Vim, PhpStorm, Sublime Text
+- `Editors` - Vim, PhpStorm, Sublime Text, Atom
 
 ### PHP Frameworks
 
