@@ -10,7 +10,7 @@ comment: false
 - <codejma@gmail.com>
 - 0433 808 445
 - <http://jma.im>
-- <http://github.com/imdecoder>
+- <http://github.com/sthtodo>
 
 
 ----
@@ -86,7 +86,7 @@ Responsibility:
 ### Development
 
 - `PHP` - Object-oriented programming
-- `SQL` - MySQL
+- `SQL` - MySQL, PostgreSQL
 - `JavaScript` - jQuery, Mootools
 - `Versioning` - Git
 - `Package Managers` - Composer
