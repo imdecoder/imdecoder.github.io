@@ -61,9 +61,9 @@ July 2016 - Present
 - Build a new partial React.js website based on existing website ([projectmate.com.au](projectmate.com.au))
 - Solely responsible for full stack development of multiply React.js/Rails apps ([mealmonster.com.au](mealmonster.com.au), [little-lion.net](little-lion.net))
 
-## Agentbox . Sydney . 2009 - Present
+### PHP Developer @ Agentbox
 
-### PHP Developer
+2009 - July 2016
 
 #### Agentbox CRM System
 
