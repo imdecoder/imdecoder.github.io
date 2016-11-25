@@ -9,16 +9,16 @@ a
 
 > Minimalist | Appleist | Unixer | Coder | Photographer
 
-who involved in 
+who involved in
 
-> [github](https://github.com/imdecoder)
+> [github](https://github.com/sthtodo)
 
-mail 
+mail
 
 > dc -e 8662021099352651176671839960105904044469514P
 
-or follow 
+or follow
 
-> [@imdecoder](https://twitter.com/#!/imdecoder)
+> [@sth2do](https://twitter.com/#!/sth2do)
 
 to reach me

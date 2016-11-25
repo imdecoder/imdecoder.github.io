@@ -5,23 +5,28 @@ comment: false
 share: false
 ---
 
-### Development
+### Web Development
 
-- `PHP` - Object-oriented programming
-- `SQL` - MySQL
+- `PHP` - '>= 5'
+- `Ruby on Rails` - '>=4'
+- `SQL` - MySQL, PostgreSQL
 - `JavaScript` - jQuery, Mootools
 - `Versioning` - Git
-- `Package Managers` - Composer
-- `Tools` - Jira, Stash, Trelle, Confluence
-- `Editors` - Vim, PhpStorm, Sublime Text
+- `Package Managers` - Composer, NPM
+- `Tools` - Github, BitBucket, Jira, Stash, Trello, Confluence
+- `Editors` - Vim, RubyMine, PhpStorm, Sublime Text, Atom
+
+### JavaScript Skills
+
+- `React` - Mid level knowledge
+- `Backbone` - Basic knowledge
 
 ### PHP Frameworks
 
-- `Symfony` - Basic knowledge
+- `Symfony` - Mid level knowledge
 - `Laravel` - Basic knowledge
 
 ### System
 
+- `macOS`
 - `Linux` - Ubuntu, CoreOS
-
-
