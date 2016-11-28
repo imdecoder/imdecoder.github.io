@@ -42,7 +42,7 @@ I am a fast and keen learner with a good attention to details and excellent trou
 
 ### PHP Frameworks
 
-- `Symfony` - Mid-level knowledge
+- `Symfony 2` - Mid-level knowledge
 - `Laravel` - Basic knowledge
 
 ### System
