@@ -37,12 +37,12 @@ I am a fast and keen learner with a good attention to details and excellent trou
 
 ### JavaScript Skills
 
-- `React` - Mid level knowledge
+- `React` - Mid-level knowledge
 - `Backbone` - Basic knowledge
 
 ### PHP Frameworks
 
-- `Symfony` - Mid level knowledge
+- `Symfony` - Mid-level knowledge
 - `Laravel` - Basic knowledge
 
 ### System
@@ -96,13 +96,13 @@ Architecture:
 
 Responsibility:
 
-- Maintain system for bugfix.
+- Maintain system for the bugfixes.
 
 #### Version Coordinator
 
-- Responsible to review the code of pull request
-- Responsible to release new version to clients
-- Responsible to maintain and develop internal client manangment system
+- Responsible for reviewing the code of pull request
+- Responsible for releasing new version to clients
+- Responsible for maintaining and developing internal client management system
 
 ### Projects
 
@@ -114,14 +114,19 @@ Responsibility:
 
 #### Realestate Portals Export System
 
-    Exporting client's properties information with xml format,
-    to protals, such as realestate, domain, and others.
+    Exporting client's properties information with XML format,
+    to portals, such as realestate.com.au, domain.com.au, and others.
 
 #### Email Log Analysis System
 
-    It analysises email logs which receives from portals such as
-    realestate and domain, and add analysis results to database,
-    client servers will do http request to get json result.
+    It analyses email logs which receive from portals such as
+    realestate.com.au and domain.com.au, and add results to the database,
+    client requests to fetch data, and it will return JSON result to them.
+
+#### Other minor ongoing projects
+
+    Writing small components to do some repeatable jobs.
+    Mostly use PHP with the procedure or object-oriented code.
 
 ----
 
@@ -139,7 +144,7 @@ Univeristy of Wollongong . 2005 - 2007
 
 # Interests
 
-- Photography: my instagram [@ishotsth](https://www.instagram.com/ishotsth/)
+- Photography: my Instagram [@ishotsth](https://www.instagram.com/ishotsth/)
 - Traveling: view the world, and take photos
 - Mobile/Desktop Applications: like to try new apps
 - Gadget: like new gadgets
