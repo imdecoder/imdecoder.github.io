@@ -3,7 +3,7 @@
 
 # TEAM
 
-    Jie Ma -- @imdecoder
+    Jie Ma
 
 # TECHNOLOGY COLOPHON
 

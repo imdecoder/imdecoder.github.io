@@ -46,7 +46,7 @@ desc 'create new post or bit. args: title, future (# of days)'
 task :new do
   require 'rubygems'
   require 'chronic'
-  
+
   title = ENV["title"] || "New Title"
   future = ENV["future"] || 0
   slug = (ENV["slug"] ? ENV["slug"].gsub(' ','-').downcase : nil) || title.gsub(' ','-').downcase
@@ -67,15 +67,15 @@ task :new do
   uuid = `uuidgen | tr "[:upper:]" "[:lower:]" | tr -d "\n"`
   path = File.join(TARGET_DIR, filename)
   post = <<-HTML
---- 
+---
 layout: post
 title: "#{title}"
 date: #{Time.new.to_s}
 guid: urn:uuid:#{uuid}
 tags:
-  - 
+  -
 categories:
-  - 
+  -
 external-url: #{link}
 show: excerpt
 ---
@@ -85,5 +85,5 @@ HTML
     file.puts post
   end
   puts "new post generated in #{path}"
-  system "open -a mou #{path}"
+  system "open -a atom #{path}"
 end
