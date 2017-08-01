@@ -16,7 +16,7 @@ comment: false
 
 ### Summary
 
-With 7+ years backend-end PHP experience with part of front-end experience and half year full stack experience, I am now looking for a full stack or front-end opportunity to learn and gain more experience on frameworks development.
+With 8+ years backend-end PHP experience with part of front-end experience and half year full stack experience, I am now looking for a full stack or front-end opportunity to learn and gain more experience on frameworks development.
 
 I am a fast and keen learner with a good attention to details and excellent troubleshooting skills. I am also a good team player who has a proven ability to work analytically. I am highly efficient, deadline focused, and handle multiple projects at same time.
 
@@ -54,12 +54,36 @@ I am a fast and keen learner with a good attention to details and excellent trou
 
 # Experience
 
+### Software Engineer @ Salmat
+
+Jan 2017 - Present
+
+- Building new internal system that use Laravel as API endpoints, and React as web.
+- Maintain main system (Zend 1 framework) with bug fixes and continuously feature development.
+- Understand business requirements and design solutions
+- Development of high traffic and large scale web application
+- Agile development and quick responses
+
+Architecture:
+
+- Laravel 5.4
+- Zend 1
+- LEMP
+- React.js / Redux
+- MySQL
+
 ### Web Developer @ DevHub
 
-July 2016 - Present
+July 2016 - Jan 2017
 
 - Build a new partial React.js website based on existing website ([projectmate.com.au](projectmate.com.au))
 - Solely responsible for full stack development of multiply React.js/Rails apps ([mealmonster.com.au](mealmonster.com.au), [little-lion.net](little-lion.net))
+
+Architecture:
+
+- Ruby On Rails
+- PostgreSQL
+- React.js / Redux
 
 ### PHP Developer @ Agentbox
 
