@@ -18,13 +18,12 @@ share: false
 
 ### JavaScript Skills
 
-- `React` - Mid level knowledge
-- `Backbone` - Basic knowledge
+- `ReactJS` - Mid level knowledge
 
 ### PHP Frameworks
 
-- `Symfony` - Mid level knowledge
-- `Laravel` - Basic knowledge
+- `Symfony 2` - Mid level knowledge
+- `Laravel 5.4` - Basic knowledge
 
 ### System
 
