@@ -85,5 +85,6 @@ HTML
     file.puts post
   end
   puts "new post generated in #{path}"
-  system "open -a atom #{path}"
+  # system "open -a atom #{path}"
+  system "code #{path}"
 end
