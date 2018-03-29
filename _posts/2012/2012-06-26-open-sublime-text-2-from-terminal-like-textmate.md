@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Open Sublime Text 2 from Terminal Like TextMate
 excerpt: ""
 tags: [app]

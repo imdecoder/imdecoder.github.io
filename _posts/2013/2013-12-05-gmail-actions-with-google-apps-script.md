@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Gmail Actions with Google Apps Script
 excerpt: ""
 tags: [dev, gmail]

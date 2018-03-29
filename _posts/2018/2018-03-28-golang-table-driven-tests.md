@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Table driven tests in Golang"
 date: 2018-03-28 16:56:33 +1100
 guid: urn:uuid:4038b9f6-7ad5-4556-9f1b-d1cbaba296e7

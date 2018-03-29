@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Homebrew Services Operation not permitted"
 date: 2016-07-25 22:24:43 +1000
 guid: urn:uuid:f24c29f5-e10e-4c5a-a449-e54fdfd3d909

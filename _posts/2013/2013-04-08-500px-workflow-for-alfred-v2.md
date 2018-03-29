@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 500px Workflow for Alfred v2
 excerpt: ""
 tags: [dev, app, photo, workflow]

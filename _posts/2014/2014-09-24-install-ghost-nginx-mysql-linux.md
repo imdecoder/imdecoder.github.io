@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Install Ghost with Nginx and MySQL
 excerpt: ""
 tags: [howto, linux, ghost, blog]

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Sublime Text 2 nil Theme
 excerpt: ""
 tags: [dev, app, theme]

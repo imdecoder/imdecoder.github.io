@@ -1,5 +1,4 @@
 ---
-layout: post
 title: About Rails Depoly
 excerpt: ""
 tags: [dev, rails, database]

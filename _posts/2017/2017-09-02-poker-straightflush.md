@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Poker StraightFlush"
 date: 2017-09-02 00:51:22 +1000
 guid: urn:uuid:9f5ac2af-8b45-4a55-bf4c-d6cc9fe34d8b
@@ -9,7 +8,7 @@ tags:
 categories:
   - dev
 external-url:
-show: excerpt
+excerpt_separator: <!--more-->
 ---
 
 First of all, PHP Code Example. (PHP ≥ 7)
@@ -30,6 +29,8 @@ First of all, PHP Code Example. (PHP ≥ 7)
         }
         return [false, false];
     }
+
+<!--more-->
 
 Explain:
 

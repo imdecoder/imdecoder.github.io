@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Install Mcrypt on Mac by Homebrew
 excerpt: ""
 tags: [mac, php]

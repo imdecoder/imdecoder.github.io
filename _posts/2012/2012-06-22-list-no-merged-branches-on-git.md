@@ -1,5 +1,4 @@
 ---
-layout: post
 title: List no merged branches on git
 excerpt: ""
 tags: [dev, git]

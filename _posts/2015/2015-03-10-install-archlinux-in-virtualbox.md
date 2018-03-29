@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Archlinux in Virtualbox
 excerpt: "Install Arch Linux in Virtualbox"
 tags: [linux,archlinux]

@@ -1,0 +1,44 @@
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+{% case site.tag_archive.type %}
+  {% when "liquid" %}
+    {% assign path_type = "#" %}
+  {% when "jekyll-archives" %}
+    {% assign path_type = nil %}
+{% endcase %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 class="archive__item-title" itemprop="headline">
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h2>
+    <p class="page__meta">
+            <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%B %d, %Y" }}</time>
+        {% if post.tags %}
+            {% for tag in post.tags %}
+                <a href="{{ tag | slugify | prepend: path_type | prepend: site.tag_archive.path | relative_url }}" title="{{ tag }}">#{{ tag }}</a>
+            {% endfor %}
+        {% endif %}
+    </p>
+    {% if post.read_time %}
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+    {% endif %}
+    <section class="page__content">
+        {{ post.content }}
+    </section>
+  </article>
+</div>

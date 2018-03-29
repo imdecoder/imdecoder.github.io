@@ -1,5 +1,4 @@
 ---
-layout: post
 title: SSH Password for Windows Git bash
 excerpt: ""
 tags: [git]

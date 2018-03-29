@@ -1,5 +1,4 @@
 ---
-layout: post
 title: New Template
 excerpt: ""
 tags: [blog, jekyll]

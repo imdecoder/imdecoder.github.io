@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Hide Any File or Folder with Command
 excerpt: ""
 tags: [mac]

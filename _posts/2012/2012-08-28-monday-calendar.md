@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Monday Calendar
 excerpt: ""
 tags: [app]

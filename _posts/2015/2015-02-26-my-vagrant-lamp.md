@@ -1,5 +1,4 @@
 ---
-layout: post
 title: My Vagrant LAMP stack
 excerpt: ""
 tags: [vagrant]

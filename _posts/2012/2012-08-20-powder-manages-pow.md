@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Powder manages Pow
 excerpt: ""
 tags: [dev, rails]
