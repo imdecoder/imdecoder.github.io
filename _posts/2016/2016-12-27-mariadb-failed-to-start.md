@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "MariaDB failed to start"
 date: 2016-12-27 19:16:36 +1100
 guid: urn:uuid:9a65b212-796d-4b90-ab34-1554f7eae499

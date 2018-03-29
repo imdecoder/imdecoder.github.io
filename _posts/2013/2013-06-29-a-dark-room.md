@@ -1,5 +1,4 @@
 ---
-layout: post
 title: A Dark Room
 excerpt: ""
 tags: [game]

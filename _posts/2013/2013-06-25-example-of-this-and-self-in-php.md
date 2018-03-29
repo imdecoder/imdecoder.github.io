@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Example of $this and self:: in PHP"
 excerpt: ""
 tags: [php]

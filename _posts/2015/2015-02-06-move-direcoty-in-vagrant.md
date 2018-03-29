@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Vagrant Move Project Directory
 excerpt: ""
 tags: [vagrant]

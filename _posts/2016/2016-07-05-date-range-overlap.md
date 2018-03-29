@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: "Date Range Overlap"
 date: 2016-07-05 21:37:43 +1000
 guid: urn:uuid:ba48abab-b475-4eb2-b8d8-90f19febfcaa

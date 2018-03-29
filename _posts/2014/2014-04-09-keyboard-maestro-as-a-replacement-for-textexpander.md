@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Keyboard Maestro as a replacement for TextExpander
 excerpt: ""
 tags: [mac, app]

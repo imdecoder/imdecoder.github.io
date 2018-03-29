@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Terminal Prompt for Mac OS X
 excerpt: ""
 tags: [mac, terminal]

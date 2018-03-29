@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Command to start Sublime Text on Ubuntu
 excerpt: ""
 tags: [app]

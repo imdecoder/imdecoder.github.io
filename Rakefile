@@ -68,7 +68,7 @@ task :new do
   path = File.join(TARGET_DIR, filename)
   post = <<-HTML
 ---
-layout: post
+layout: single
 title: "#{title}"
 date: #{Time.new.to_s}
 guid: urn:uuid:#{uuid}
@@ -77,7 +77,8 @@ tags:
 categories:
   -
 external-url: #{link}
-show: excerpt
+feature: false
+excerpt_separator: <!--more-->
 ---
 
 HTML

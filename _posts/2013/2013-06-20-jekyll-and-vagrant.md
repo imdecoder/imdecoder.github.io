@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Jekyll and Vagrant
 excerpt: ""
 tags: [dev, vagrant, jekyll]

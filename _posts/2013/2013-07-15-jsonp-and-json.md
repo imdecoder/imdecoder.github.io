@@ -1,5 +1,4 @@
 ---
-layout: post
 title: JSONP and JSON
 excerpt: ""
 tags: [php, js]

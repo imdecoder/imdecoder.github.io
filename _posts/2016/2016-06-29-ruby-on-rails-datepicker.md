@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: "Ruby on Rails datepicker"
 date: 2016-06-29 21:34:06 +1000
 guid: urn:uuid:eefed055-5568-4939-8959-da20a9d041d7

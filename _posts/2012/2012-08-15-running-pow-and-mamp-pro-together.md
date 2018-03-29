@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Running Pow And MAMP Pro Together
 excerpt: ""
 tags: [mac, app, dev]

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Git pull multiple repositories
 excerpt: ""
 tags: [git]
