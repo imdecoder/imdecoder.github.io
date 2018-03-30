@@ -1,6 +1,5 @@
 ---
-title: About
-tags: [about]
+title: Jie Ma
 permalink: /about/
 ---
 

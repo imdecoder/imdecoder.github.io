@@ -38,7 +38,7 @@ end
 
 desc 'Start server'
 task :server => :clean do
-  `jekyll serve`
+  `bundle exec jekyll serve`
 end
 
 desc 'create new post or bit. args: title, future (# of days)'
