@@ -78,7 +78,6 @@ categories:
   -
 external-url: #{link}
 feature: false
-excerpt_separator: <!--more-->
 ---
 
 HTML
